@@ -4,3 +4,40 @@ body{
 /* #ef4b4c  color rojo */
 /* #3d619b  color azul */
 /* #e9e9eb  color blanco */
+
+header{
+    display: flex;
+    justify-content:center;
+}
+
+#calculator{
+
+   text-align: center;
+}
+
+.number{
+    background-color: #3d619b;
+    color:#e9e9eb;
+    border: none;
+    padding: 3em;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.operator{
+    background-color: #ef4b4c;
+    color:#e9e9eb;
+    border: none;
+    padding: 3em;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#result{
+    width: 50em;
+    padding-top: 100px;
+    border-radius: 10px;
+    border: none;
+
+}
