@@ -1,11 +1,17 @@
 let box = document.getElementById('result');
 let numbers = document.querySelectorAll('input.number');
-numbers.addEventListener('click', addToBox)
-function addToBox() {
+function hola() {
     
+}
+
+function init() {
     
     for (let i = 0; i < numbers.length; i++) {
-        numbers['i'].value
-            
+        numbers[i].addEventListener('click',function(e) {
+            console.log(e.textContent);
+        })    
     }
 }
+
+
+window.onload = init
